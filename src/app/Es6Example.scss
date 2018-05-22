@@ -1,0 +1,30 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+type-script-example
+{
+	display: block;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 16px;
+
+	h1
+	{
+		font-weight: 400;
+		padding: 0 0 12px;
+		margin: 0 0 20px;
+		border-bottom: 1px solid #CCC;
+	}
+
+	p, input
+	{
+		font-size: 14px;
+	}
+
+	input
+	{
+		padding: 4px;
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"name": "conbo-example-babel",
+	"version": "1.0.0",
+	"description": "A simple ConboJS framework example using ES6, SASS and Webpack",
+	"main": "./dist/index.html",
+	"scripts": {
+		"build": "webpack",
+		"serve": "webpack-dev-server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/neilrackett/conbo-example-babel.git"
+	},
+	"keywords": [
+		"conbo",
+		"babel",
+		"webpack"
+	],
+	"author": "Neil Rackett",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/neilrackett/conbo-example-babel/issues"
+	},
+	"homepage": "https://github.com/neilrackett/conbo-example-babel#readme",
+	"dependencies": {
+		"conbo": "^4.3.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-loader": "^7.1.4",
+		"babel-plugin-transform-decorators-legacy": "^1.3.4",
+		"copy-webpack-plugin": "^4.1.1",
+		"css-loader": "^0.28.7",
+		"node-sass": "^4.5.3",
+		"path": "^0.12.7",
+		"sass-loader": "^6.0.6",
+		"style-loader": "^0.19.0",
+		"webpack": "^3.11.0",
+		"webpack-dev-server": "^2.11.1"
+	}
+}
