@@ -1,4 +1,4 @@
-import './Es6Example.scss';
+import './Es2015Example.scss';
 
 import * as conbo from 'conbo';
 import { Application, Viewable } from 'conbo';
@@ -7,8 +7,8 @@ import MyContext from './core/MyContext';
 import InputView from './view/InputView';
 import OutputView from './view/OutputView';
 
-@Viewable('conbo.example.es6', 'Es6Example')
-export default class Es6Example extends Application
+@Viewable('conbo.example.es2015', 'Es2015Example')
+export default class Es2015Example extends Application
 {
 	declarations()
 	{
@@ -20,7 +20,7 @@ export default class Es6Example extends Application
 
 	initialize()
 	{
-		console.info('Hello from ConboJS using ES6, SASS & Webpack!');
+		console.info('Hello from ConboJS using ES2015, SASS & Webpack!');
 
 		this.appendView
 		(

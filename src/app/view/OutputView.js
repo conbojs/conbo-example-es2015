@@ -2,7 +2,7 @@ import { View, Viewable, Inject } from 'conbo';
 
 import MyModel from '../model/MyModel';
 
-@Viewable('conbo.example.es6', 'OutputView')
+@Viewable('conbo.example.es2015', 'OutputView')
 export default class OutputView extends View
 {
 	declarations()

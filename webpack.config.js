@@ -14,7 +14,7 @@ module.exports = env =>
 
 	return {
 
-		entry: './src/app/Es6Example.js',
+		entry: './src/app/Es2015Example.js',
 		devtool: 'source-map',
 
 		output: 
