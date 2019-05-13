@@ -1,6 +1,6 @@
 {
 	"name": "conbo-example-babel",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple ConboJS framework example using ES6, SASS and Webpack",
 	"main": "./dist/index.html",
 	"scripts": {
@@ -23,7 +23,7 @@
 	},
 	"homepage": "https://github.com/neilrackett/conbo-example-babel#readme",
 	"dependencies": {
-		"conbo": "^4.3.0"
+		"conbo": "^4.3.18"
 	},
 	"devDependencies": {
 		"babel-cli": "^6.26.0",

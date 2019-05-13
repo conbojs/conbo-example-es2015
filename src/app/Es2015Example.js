@@ -7,14 +7,13 @@ import MyContext from './core/MyContext';
 import InputView from './view/InputView';
 import OutputView from './view/OutputView';
 
-@Viewable('conbo.example.es2015', 'Es2015Example')
+@Viewable('Es2015Example')
 export default class Es2015Example extends Application
 {
 	declarations()
 	{
 		window.conbo = conbo;
-
-		this.namespace = conbo('conbo.example.typescript');
+		
 		this.contextClass = MyContext;
 	}
 
